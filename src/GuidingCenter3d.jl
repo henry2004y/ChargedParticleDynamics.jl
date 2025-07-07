@@ -1,5 +1,10 @@
 module GuidingCenter3d
 
+    # Based on Xinjie Li, Ruili Zhang, and Jian Liu, Symplectic Runge-Kutta methods for the guiding
+    # center dynamics.
+
+    include("guiding_center_3d/dipole.jl")
+    include("guiding_center_3d/quadratic_potentials.jl")
     include("guiding_center_3d/solovev_iter.jl")
     include("guiding_center_3d/solovev_iter_xpoint.jl")
     include("guiding_center_3d/solovev_symmetric.jl")
