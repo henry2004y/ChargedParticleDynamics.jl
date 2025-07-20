@@ -38,7 +38,7 @@ Let us choose the following normalizations (and note that others are possible an
 \hat{L} &= m \hat{v}^2 = e \hat{\phi} ,
 \end{aligned}
 ```
-with the characteristic length $l$.
+with the characteristic length $\hat{l}$.
 The normalized Lagrangian becomes
 ```math
 L' = \bigg( \frac{\hat{x}}{\hat{t} \hat{v}} \, v' + \underbrace{\frac{e \hat{B}}{m}}_{\hat{\omega}_c} \frac{\hat{x} \hat{l}}{ \hat{t} \hat{v}^2} \, A' \bigg) \cdot \dot{x}' - \frac{\vert v' \vert^2}{2} - \phi' ,
@@ -87,4 +87,4 @@ where $\hat{\rho}_{\mathrm{th}}$ is the characteristic gyro radius, and the norm
 L' = \bigg( v' + \frac{\hat{l}}{\hat{\rho}_{\mathrm{th}}} \, A' \bigg) \cdot \dot{x}' - \frac{\vert v' \vert^2}{2} - \frac{e \hat{\phi}}{m v_{\mathrm{th}}^2} \phi' .
 ```
 This leaves room for different orderings and consequently different normalizations. 
-For example, in drift kinetics, we have $\hat{\rho}_{\mathrm{th}} / \hat{l} \sim \epsilon$ and $e \hat{\phi} / m v_{\mathrm{th}}^2 \sim 1$, while in gyro kinetics, we have $\hat{\rho}_{\mathrm{th}} / \hat{l} \sim 1$ and $e \hat{\phi} / m v_{\mathrm{th}}^2 \sim \epsilon$. 
+For example, in drift kinetics, we have $\hat{\rho}_{\mathrm{th}} / \hat{l} \sim \epsilon$ and $e \hat{\phi} / m v_{\mathrm{th}}^2 \sim 1$, while in gyro kinetics, we have $\hat{\rho}_{\mathrm{th}} / \hat{l} \sim 1$ and $e \hat{\phi} / m v_{\mathrm{th}}^2 \sim \epsilon$.

@@ -13,13 +13,13 @@ where ``m`` and ``e`` denote the particle's mass and charge, respectively.
 
 The canonical form of the equations can be obtained from the Hamiltonian
 ```math
-H (x,p) = \frac{1}{2m} (p-A(x))^2 + e \phi(x),
+H (x,p) = \frac{1}{2m} (p - e\,A(x))^2 + e\,\phi(x),
 ```
 as
 ```math
 \begin{aligned}
-\dot{x} (t) &= \frac{\partial H}{\partial p} (x(t),p(t)) = \frac{1}{m} (p(t) - A(x(t))), \\
-\dot{p} (t) &= - \frac{\partial H}{\partial x} (x(t),p(t)) = \frac{1}{m} \nabla A(x(t)) \cdot (p(t)-A(x(t))) - \nabla \phi(x(t)) ,
+\dot{x} (t) &= \frac{\partial H}{\partial p} (x(t),p(t)) = \frac{1}{m} (p(t) - e\,A(x(t))), \\
+\dot{p} (t) &= - \frac{\partial H}{\partial x} (x(t),p(t)) = \frac{e}{m} \nabla A(x(t)) \cdot (p(t)-e\,A(x(t))) - e\nabla \phi(x(t)) ,
 \end{aligned}
 ```
 where the fields ``(E,B)`` are related to the potentials ``(\phi, A)`` by
@@ -33,7 +33,7 @@ B (x) &= \nabla \times A (x) .
 
 ## Noncanonical Formulation
 
-The noncanonical form of the equations can be obtained from the phasespace Lagrangian
+The noncanonical form of the equations can be obtained from the phase space Lagrangian
 ```math
 \begin{aligned}
 L (x,\dot{x},v,\dot{v}) &= (e A(x) + mv) \cdot \dot{x} - H(x,v) , &
